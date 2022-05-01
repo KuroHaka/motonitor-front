@@ -39,7 +39,7 @@ name = st.selectbox("Modelo", models.get(brand))
 kms = st.slider(
      'Seleccione los kilometros que tiene su motocicleta',0,1000000,100)#falta especificar valores realistas
 license = st.radio("Seleccione la licencia o licencias que permiten conducir su motocicleta", ['A','A1','A2','AB'])
-cilindrada = st.radio("Seleccione la cilindrada der su motocicleta", ['49','125','250','500'])
+cilindrada = st.radio("Seleccione la cilindrada der su motocicleta", ['49','125','250','500','700','1000','1500','2000'])
 
 year = st.slider("Año de matriculación", 1985,2022,2008)
 cycleType = st.selectbox('Seleccione el tipo de moto que más se ajusta',('SCOOTER','MAXI-SCOOTER','CLASSIC','NAKED','SPORT','TOURING','TRAIL','OFF-ROAD','CUSTOM','TRES RUEDAS'))
